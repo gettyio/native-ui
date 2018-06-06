@@ -1,33 +1,22 @@
-import styled from 'styled-components/native'
+import styled, { css } from 'styled-components/native'
+import PropTypes from 'prop-types'
 
 const Text = styled.Text`
-  font-family: ${props =>
-    props.font || props.theme.typography[props.type].font};
-  font-size: ${props =>
-    props.size || props.theme.typography[props.type].size}px;
-  font-weight: ${props =>
-    props.weight || props.theme.typography[props.type].weight};
-  line-height: ${props =>
-    props.leading || props.theme.typography[props.type].leading}px;
-  letter-spacing: ${props =>
-    props.tracking || props.theme.typography[props.type].tracking}px;
-  color: ${props => props.color || props.theme.typography[props.type].color};
+  ${props => props.font && css`font-family: ${props.font};`};
+  ${props => props.size && css`font-size: ${props.size};`};
+  ${props => props.weight && css`font-weight: ${props.weight};`};
+  ${props => props.leading && css`line-height: ${props.leading};`};
+  ${props => props.tracking && css`letter-spacing: ${props.tracking};`};
+  ${props => props.color && css`color: ${props.color};`};
 `
 
-Text.defaultProps = {
-  type: 'body',
-  theme: {
-    typography: {
-      body: {
-        font: 'sans-serif',
-        weight: 500,
-        size: 22,
-        leading: 28,
-        tracking: -0.384,
-        color: 'black'
-      }
-    }
-  }
+Text.propTypes = {
+  font: PropTypes.string,
+  size: PropTypes.number,
+  weight: PropTypes.oneOf(['normal', 'bold', '100', '200', '300', '400', '500', '600', '700', '800', '900']),
+  leading: PropTypes.number,
+  tracking: PropTypes.number,
+  color: PropTypes.string
 }
 
 export default Text

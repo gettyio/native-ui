@@ -1,5 +1,293 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`View component has a custom align-items styled applied 1`] = `
+<Component
+  align="center"
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+      },
+      undefined,
+    ]
+  }
+/>
+`;
+
+exports[`View component has a custom background styled applied 1`] = `
+<Component
+  background="blue"
+  style={
+    Array [
+      Object {
+        "backgroundColor": "blue",
+      },
+      undefined,
+    ]
+  }
+/>
+`;
+
+exports[`View component has a custom flex style applied 1`] = `
+<Component
+  flex="1"
+  style={
+    Array [
+      Object {
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+      },
+      undefined,
+    ]
+  }
+/>
+`;
+
+exports[`View component has a custom height styled applied 1`] = `
+<Component
+  height={100}
+  style={
+    Array [
+      Object {
+        "height": 100,
+      },
+      undefined,
+    ]
+  }
+/>
+`;
+
+exports[`View component has a custom justify-content styled applied 1`] = `
+<Component
+  justify="center"
+  style={
+    Array [
+      Object {
+        "justifyContent": "center",
+      },
+      undefined,
+    ]
+  }
+/>
+`;
+
+exports[`View component has a custom margin styled applied 1`] = `
+<Component
+  m={10}
+  style={
+    Array [
+      Object {
+        "marginBottom": 10,
+        "marginLeft": 10,
+        "marginRight": 10,
+        "marginTop": 10,
+      },
+      undefined,
+    ]
+  }
+/>
+`;
+
+exports[`View component has a custom margin-bottom styled applied 1`] = `
+<Component
+  mb={10}
+  style={
+    Array [
+      Object {
+        "marginBottom": 10,
+      },
+      undefined,
+    ]
+  }
+/>
+`;
+
+exports[`View component has a custom margin-horizontal styled applied 1`] = `
+<Component
+  mh={10}
+  style={
+    Array [
+      Object {
+        "marginHorizontal": 10,
+      },
+      undefined,
+    ]
+  }
+/>
+`;
+
+exports[`View component has a custom margin-left styled applied 1`] = `
+<Component
+  ml={10}
+  style={
+    Array [
+      Object {
+        "marginLeft": 10,
+      },
+      undefined,
+    ]
+  }
+/>
+`;
+
+exports[`View component has a custom margin-right styled applied 1`] = `
+<Component
+  mr={10}
+  style={
+    Array [
+      Object {
+        "marginRight": 10,
+      },
+      undefined,
+    ]
+  }
+/>
+`;
+
+exports[`View component has a custom margin-top styled applied 1`] = `
+<Component
+  mt={10}
+  style={
+    Array [
+      Object {
+        "marginTop": 10,
+      },
+      undefined,
+    ]
+  }
+/>
+`;
+
+exports[`View component has a custom margin-vertical styled applied 1`] = `
+<Component
+  mv={10}
+  style={
+    Array [
+      Object {
+        "marginVertical": 10,
+      },
+      undefined,
+    ]
+  }
+/>
+`;
+
+exports[`View component has a custom padding styled applied 1`] = `
+<Component
+  p={10}
+  style={
+    Array [
+      Object {
+        "paddingBottom": 10,
+        "paddingLeft": 10,
+        "paddingRight": 10,
+        "paddingTop": 10,
+      },
+      undefined,
+    ]
+  }
+/>
+`;
+
+exports[`View component has a custom padding-bottom styled applied 1`] = `
+<Component
+  pb={10}
+  style={
+    Array [
+      Object {
+        "paddingBottom": 10,
+      },
+      undefined,
+    ]
+  }
+/>
+`;
+
+exports[`View component has a custom padding-horizontal styled applied 1`] = `
+<Component
+  ph={10}
+  style={
+    Array [
+      Object {
+        "paddingHorizontal": 10,
+      },
+      undefined,
+    ]
+  }
+/>
+`;
+
+exports[`View component has a custom padding-left styled applied 1`] = `
+<Component
+  pl={10}
+  style={
+    Array [
+      Object {
+        "paddingLeft": 10,
+      },
+      undefined,
+    ]
+  }
+/>
+`;
+
+exports[`View component has a custom padding-right styled applied 1`] = `
+<Component
+  pr={10}
+  style={
+    Array [
+      Object {
+        "paddingRight": 10,
+      },
+      undefined,
+    ]
+  }
+/>
+`;
+
+exports[`View component has a custom padding-top styled applied 1`] = `
+<Component
+  pt={10}
+  style={
+    Array [
+      Object {
+        "paddingTop": 10,
+      },
+      undefined,
+    ]
+  }
+/>
+`;
+
+exports[`View component has a custom padding-vertical styled applied 1`] = `
+<Component
+  pv={10}
+  style={
+    Array [
+      Object {
+        "paddingVertical": 10,
+      },
+      undefined,
+    ]
+  }
+/>
+`;
+
+exports[`View component has a custom width styled applied 1`] = `
+<Component
+  style={
+    Array [
+      Object {
+        "width": 100,
+      },
+      undefined,
+    ]
+  }
+  width={100}
+/>
+`;
+
 exports[`View component should render without issue 1`] = `
 <Component
   style={
@@ -7,18 +295,6 @@ exports[`View component should render without issue 1`] = `
       Object {},
       undefined,
     ]
-  }
-  theme={
-    Object {
-      "spacing": Array [
-        2,
-        4,
-        8,
-        16,
-        32,
-        64,
-      ],
-    }
   }
 />
 `;
