@@ -54,7 +54,10 @@
     "globals": {
       "__DEV__": true
     },
-    "setupTestFrameworkScriptFile": "<rootDir>/src/setupTests.js"
+    "setupTestFrameworkScriptFile": "<rootDir>/src/setupTests.js",
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ]
   },
   "dependencies": {
     "prop-types": "^15.6.1"

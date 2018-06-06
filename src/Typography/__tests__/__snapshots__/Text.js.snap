@@ -1,6 +1,57 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Text component should render without issue 1`] = `
+exports[`Text component should have custom color with color prop 1`] = `
+<Text
+  accessible={true}
+  allowFontScaling={true}
+  color="blue"
+  ellipsizeMode="tail"
+  style={
+    Array [
+      Object {
+        "color": "blue",
+      },
+      undefined,
+    ]
+  }
+/>
+`;
+
+exports[`Text component should have custom font with font prop 1`] = `
+<Text
+  accessible={true}
+  allowFontScaling={true}
+  ellipsizeMode="tail"
+  font="serif"
+  style={
+    Array [
+      Object {
+        "fontFamily": "serif",
+      },
+      undefined,
+    ]
+  }
+/>
+`;
+
+exports[`Text component should have custom fontSize with size prop 1`] = `
+<Text
+  accessible={true}
+  allowFontScaling={true}
+  ellipsizeMode="tail"
+  size={20}
+  style={
+    Array [
+      Object {
+        "fontSize": 20,
+      },
+      undefined,
+    ]
+  }
+/>
+`;
+
+exports[`Text component should have custom fontWeight with weight prop 1`] = `
 <Text
   accessible={true}
   allowFontScaling={true}
@@ -8,30 +59,59 @@ exports[`Text component should render without issue 1`] = `
   style={
     Array [
       Object {
-        "color": "black",
-        "fontFamily": "sans-serif",
-        "fontSize": 22,
-        "fontWeight": "500",
-        "letterSpacing": -0.384,
-        "lineHeight": 28,
+        "fontWeight": "900",
       },
       undefined,
     ]
   }
-  theme={
-    Object {
-      "typography": Object {
-        "body": Object {
-          "color": "black",
-          "font": "sans-serif",
-          "leading": 28,
-          "size": 22,
-          "tracking": -0.384,
-          "weight": 500,
-        },
+  weight="900"
+/>
+`;
+
+exports[`Text component should have custom letterSpacing with tracking prop 1`] = `
+<Text
+  accessible={true}
+  allowFontScaling={true}
+  ellipsizeMode="tail"
+  style={
+    Array [
+      Object {
+        "letterSpacing": 1,
       },
-    }
+      undefined,
+    ]
   }
-  type="body"
+  tracking={1}
+/>
+`;
+
+exports[`Text component should have custom lineHeight with leading prop 1`] = `
+<Text
+  accessible={true}
+  allowFontScaling={true}
+  ellipsizeMode="tail"
+  leading={30}
+  style={
+    Array [
+      Object {
+        "lineHeight": 30,
+      },
+      undefined,
+    ]
+  }
+/>
+`;
+
+exports[`Text component should render without issue 1`] = `
+<Text
+  accessible={true}
+  allowFontScaling={true}
+  ellipsizeMode="tail"
+  style={
+    Array [
+      Object {},
+      undefined,
+    ]
+  }
 />
 `;
