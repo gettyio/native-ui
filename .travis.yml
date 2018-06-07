@@ -9,7 +9,6 @@ branches:
   only:
   - master
 install:
-- git fetch --unshallow --all
 - yarn global add codecov
 - yarn
 script:
