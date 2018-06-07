@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Content component should have default props 1`] = `
+<Component
+  style={
+    Array [
+      Object {
+        "paddingBottom": 16,
+        "paddingLeft": 16,
+        "paddingRight": 16,
+        "paddingTop": 16,
+      },
+      undefined,
+    ]
+  }
+>
+  <Styled(Component) />
+</Component>
+`;
+
+exports[`Content component should render without issue 1`] = `
+<Component
+  style={
+    Array [
+      Object {
+        "paddingBottom": 16,
+        "paddingLeft": 16,
+        "paddingRight": 16,
+        "paddingTop": 16,
+      },
+      undefined,
+    ]
+  }
+>
+  <Styled(Component) />
+</Component>
+`;

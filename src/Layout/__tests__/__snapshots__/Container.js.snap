@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container component should have default props 1`] = `
+<Component
+  style={
+    Array [
+      Object {
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <Styled(Component) />
+</Component>
+`;
+
+exports[`Container component should render without issue 1`] = `
+<Component
+  style={
+    Array [
+      Object {
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <Styled(Component) />
+</Component>
+`;
