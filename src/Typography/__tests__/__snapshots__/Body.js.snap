@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Body component should have default props 1`] = `
+<Text
+  accessible={true}
+  allowFontScaling={true}
+  ellipsizeMode="tail"
+  style={
+    Array [
+      Object {
+        "fontSize": 23,
+        "fontWeight": "normal",
+        "letterSpacing": -0.384,
+        "lineHeight": 29,
+      },
+      undefined,
+    ]
+  }
+>
+  Body text.
+</Text>
+`;
+
+exports[`Body component should render without issue 1`] = `
+<Text
+  accessible={true}
+  allowFontScaling={true}
+  ellipsizeMode="tail"
+  style={
+    Array [
+      Object {
+        "fontSize": 23,
+        "fontWeight": "normal",
+        "letterSpacing": -0.384,
+        "lineHeight": 29,
+      },
+      undefined,
+    ]
+  }
+>
+  Body text.
+</Text>
+`;

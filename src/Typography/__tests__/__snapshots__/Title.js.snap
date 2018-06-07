@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Title component should have default props 1`] = `
+<Text
+  accessible={true}
+  allowFontScaling={true}
+  ellipsizeMode="tail"
+  style={
+    Array [
+      Object {
+        "fontSize": 37,
+        "fontWeight": "normal",
+        "letterSpacing": 0.176,
+        "lineHeight": 55,
+      },
+      undefined,
+    ]
+  }
+>
+  Title text.
+</Text>
+`;
+
+exports[`Title component should render without issue 1`] = `
+<Text
+  accessible={true}
+  allowFontScaling={true}
+  ellipsizeMode="tail"
+  style={
+    Array [
+      Object {
+        "fontSize": 37,
+        "fontWeight": "normal",
+        "letterSpacing": 0.176,
+        "lineHeight": 55,
+      },
+      undefined,
+    ]
+  }
+>
+  Title text.
+</Text>
+`;

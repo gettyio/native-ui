@@ -1,7 +1,11 @@
+import Body from './Body'
 import Text from './Text'
+import Title from './Title'
 
 const Typography = {
-  Text
+  Body,
+  Text,
+  Title
 }
 
 export default Typography
