@@ -1,4 +1,6 @@
 # @gettyio/native-ui
+[![Build Status](https://travis-ci.org/gettyio/native-ui.svg?branch=master)](https://travis-ci.org/gettyio/native-ui)
+[![codecov](https://codecov.io/gh/gettyio/native-ui/branch/master/graph/badge.svg)](https://codecov.io/gh/gettyio/native-ui)
 
 A library of components that we build and use at Getty/IO. This library is :construction: under construction :construction:. We'll actively incrementing this library as we build new components at our company.
 
