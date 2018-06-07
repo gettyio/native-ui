@@ -3,3 +3,4 @@ node_modules
 coverage
 .vs_code/
 build/
+*.log
